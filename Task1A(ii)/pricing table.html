@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing Table</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .pricing-table {
+      margin: 50px auto;
+      max-width: 900px;
+      display: flex;
+      justify-content: space-around;
+    }
+    .pricing-card {
+      background-color: #fff;
+      border: 1px solid #dee2e6;
+      border-radius: 10px;
+      padding: 20px;
+      width: 45%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+      cursor: pointer;
+    }
+    .pricing-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    .pricing-card img {
+      width: 50px;
+      margin-bottom: 20px;
+    }
+    .pricing-card h2 {
+      background-color: #556b2f;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+    .pricing-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 20px 0;
+      line-height: 2;
+      border-top: 1px solid #dee2e6;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .pricing-card ul li {
+      border-bottom: 1px solid #dee2e6;
+      padding: 5px 0;
+    }
+    .pricing-card ul li:last-child {
+      border-bottom: none;
+    }
+    .pricing-card .price {
+      font-size: 24px;
+      font-weight: bold;
+      background-color: #556b2f;
+      color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="pricing-table">
+    <div class="pricing-card">
+      <img src="sprout.jpeg" alt="Sprout Package">
+      <h2>Sprout Package</h2>
+      <p>This sponsorship package is designed for startups or small businesses looking to gain initial exposure. It includes several essential marketing opportunities during the event.</p>
+      <ul>
+        <li>Print ads on banner</li>
+        <li>Ad-lib 5 times during event</li>
+        <li>Company logo on website</li>
+        <li>Social media shoutouts</li>
+        <li>Free entry for 2 attendees</li>
+      </ul>
+      <div class="price">$10,000</div>
+    </div>
+    <div class="pricing-card">
+      <img src="tree.png" alt="Tree Package">
+      <h2>Tree Package</h2>
+      <p>This premium sponsorship package offers extensive exposure and branding opportunities for established businesses looking to make a significant impact at the event.</p>
+      <ul>
+        <li>Print ads on banner</li>
+        <li>Ad-lib 5 times during event</li>
+        <li>Company logo on website</li>
+        <li>Social media shoutouts</li>
+        <li>Free entry for 5 attendees</li>
+      </ul>
+      <div class="price">$20,000</div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

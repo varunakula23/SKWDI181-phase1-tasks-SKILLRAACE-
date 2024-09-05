@@ -1,0 +1,42 @@
+/* Custom CSS */
+
+/* Hero Section */
+.hero {
+    background: url('hero-background.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: left;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.features .feature-box {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.features .icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+.footer {
+    background: #f8f9fa;
+    color: #6c757d;
+}
+body{
+    background: url('Full\ Stack\ Developer.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
